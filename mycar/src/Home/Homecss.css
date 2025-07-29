@@ -5,9 +5,12 @@
    justify-content: space-between;
    align-items: center;
    padding-inline: 5%;
+   margin-top: 5%;
 }
 
 .hometext {
+   height: 150px;
+   width: 500px;
    font-family: "Jersey 25", sans-serif;
    font-size: 30px;
    font-weight: 400;
@@ -27,4 +30,35 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.cursor {
+  color: #ff66cc;
+  font-weight: 600;
+  font-size: 0.8em;  /* smaller than main text */
+  animation: blink 0.7s steps(1) infinite;
+  margin-left: 4px;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}
+
+.cube img {
+  animation: float 4s ease-in-out infinite;
+}
+
+
+@keyframes blink {
+  0%, 100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
 }
