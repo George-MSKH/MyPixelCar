@@ -8,6 +8,10 @@ export default function Home() {
             Once it's sold, it’s history. <br/>
             No remakes.<br /> No second chances.
         </h1>
+
+        <div className="cube">
+            <img src="./public/image/car.png" alt="" />
+        </div>
     </div>
   )
 }

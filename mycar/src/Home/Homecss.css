@@ -2,8 +2,9 @@
    width: 100%;
    height: 100vh;
    display: flex;
-   justify-content: center;
+   justify-content: space-between;
    align-items: center;
+   padding-inline: 5%;
 }
 
 .hometext {
@@ -16,4 +17,14 @@
    color: #ffffff;
    text-shadow: 2px 2px #ff66cc;
    transform: scale(1.05);
+}
+
+.cube {
+  width: 500px;
+  height: 320px;
+  background: deeppink;
+  border-radius: 60% 40% 50% 50% / 50% 60% 40% 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
