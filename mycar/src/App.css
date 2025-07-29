@@ -5,3 +5,23 @@
     justify-content: start;
     align-items: center;
 }
+
+.mute-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #111827;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+  transition: background-color 0.2s ease;
+  z-index: 999;
+}
+
+.mute-button:hover {
+  background-color: #1f2937;
+}

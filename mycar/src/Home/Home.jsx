@@ -30,14 +30,16 @@ export default function Home() {
   }, [charIndex, isDeleting, fullText]);
 
   return (
-    <div className='home'>
-      <h1 className='hometext'>
-        {displayedText}
-        <span className='cursor'>|</span>
-      </h1>
+    <div className="land">
+      <div className='home'>
+        <h1 className='hometext'>
+          {displayedText}
+          <span className='cursor'>|</span>
+        </h1>
 
-      <div className="cube">
-        <img src="./public/image/car.png" alt="car" />
+        <div className="cube">
+          <img src="./public/image/car.png" alt="car" />
+        </div>
       </div>
     </div>
   );

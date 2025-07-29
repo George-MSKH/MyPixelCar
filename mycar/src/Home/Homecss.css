@@ -5,7 +5,6 @@
    justify-content: space-between;
    align-items: center;
    padding-inline: 5%;
-   margin-top: 5%;
 }
 
 .hometext {
@@ -45,12 +44,12 @@
     transform: translateY(0);
   }
   50% {
-    transform: translateY(-5px);
+    transform: translateY(-10px);
   }
 }
 
 .cube img {
-  animation: float 4s ease-in-out infinite;
+  animation: float 2s ease-in-out infinite;
 }
 
 
