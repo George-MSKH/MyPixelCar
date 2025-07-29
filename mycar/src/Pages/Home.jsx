@@ -45,7 +45,6 @@ export default function Home() {
   }, [displayedText]);
 
   return (
-    <div className="land">
       <div className="home" ref={containerRef}>
         <h1 className="hometext">
           <span className="text-wrapper" style={{ whiteSpace: "pre-wrap" }}>
@@ -75,6 +74,5 @@ export default function Home() {
           <img className="car" src="/image/car.png" alt="car" />
         </div>
       </div>
-    </div>
   );
 }
