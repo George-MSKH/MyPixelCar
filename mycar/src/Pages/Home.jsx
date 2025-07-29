@@ -71,8 +71,9 @@ export default function Home() {
         </h1>
 
         <div className="cube">
-          <img className="car" src="/image/car.png" alt="car" />
+          <img className='car' src="./image/car.png" alt="car" />
         </div>
       </div>
+    </div>
   );
 }
