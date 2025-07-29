@@ -74,6 +74,5 @@ export default function Home() {
           <img className='car' src="./image/car.png" alt="car" />
         </div>
       </div>
-    </div>
   );
 }
