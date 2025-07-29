@@ -1,15 +1,30 @@
 import './App.css'
 import Header from './Header/Header'
-import Home from './Home/Home'
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from './Pages/Home'
+import Cars from './Pages/Cars'
+import About from './Pages/About'
+import Contact from './Pages/Contact'
+
 
 function App() {
 
   return (
     <>
+    <Router>
+
       <Header />
-      <div className="land">
-          <Home />
-      </div>
+
+      <Routes>
+
+        <Route path='/' element={<Home />} />
+        <Route path='/cars' element={<Home />} />
+        <Route path='/about' element={<Home />} />
+        <Route path='/contact' element={<Home />} />
+
+      </Routes>
+
+    </Router>
     </>
   )
 }
