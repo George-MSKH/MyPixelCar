@@ -11,6 +11,9 @@
   font-family: 'Press Start 2P', monospace; /* Optional pixel font */
   text-align: center;
   image-rendering: pixelated; /* Makes pixel images stay blocky */
+  display: flex;
+  justify-content: center;
+  align-items: center;
   cursor: pointer;
   transition: all 0.3s ease-in;
 }
@@ -37,6 +40,5 @@
 
 .Logo {
     width: 100%;
-    height: 100%;
-    image-rendering: pixelated;
+    height: fit-content;
 }
