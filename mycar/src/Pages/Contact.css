@@ -1,0 +1,127 @@
+.contact-wrapper {
+  padding-top: 90px; /* to clear fixed header */
+  max-width: 900px;
+  margin: 0 auto; /* center horizontally */
+  gap: 60px;
+  color: white;
+  font-family: 'Jersey 20', sans-serif;
+  box-sizing: border-box;
+  display: flex;
+}
+
+.contact-form {
+  flex: 1;
+  min-width: 300px;
+}
+
+.contact-form h2 {
+  margin-bottom: 24px;
+  color: #ff66cc;
+  font-size: 36px;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  font-size: 18px;
+  text-align: left;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+  width: 100%;
+  padding: 10px 12px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  background-color: #222;
+  color: white;
+  transition: border-color 0.3s ease;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+.contact-form input[type="text"]:focus,
+.contact-form input[type="email"]:focus,
+.contact-form textarea:focus {
+  border-color: #ff66cc;
+  outline: none;
+}
+
+.error {
+  color: #ff66cc;
+  margin-top: -15px;
+  margin-bottom: 15px;
+  font-weight: 600;
+  font-size: 14px;
+  text-align: left;
+}
+
+.contact-form button[type="submit"] {
+  width: 100%;
+  background-color: #ff66cc;
+  border: none;
+  color: white;
+  padding: 12px 24px;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button[type="submit"]:hover {
+  background-color: #e055b8;
+}
+
+.status-message {
+  margin-top: 20px;
+  color: #ff66cc;
+  font-weight: 600;
+  text-align: center;
+}
+
+/* Right side info */
+.contact-info {
+  flex: 1;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: #ff66cc;
+}
+
+.contact-info h3 {
+  font-size: 28px;
+  margin-bottom: 16px;
+}
+
+.contact-info p {
+  font-size: 18px;
+  margin-bottom: 24px;
+  color: #ffd6eb;
+}
+
+/* Example illustration styling */
+.contact-illustration {
+  max-width: 70%;
+  height: auto;
+  margin: auto;
+}
+
+/* Responsive for smaller screens */
+@media (max-width: 768px) {
+  .contact-wrapper {
+    flex-direction: column;
+    padding: 10px;
+    gap: 40px;
+  }
+
+  .contact-info {
+    text-align: center;
+  }
+}
