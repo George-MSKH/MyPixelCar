@@ -1,25 +1,12 @@
-import React from 'react';
-import Card from './Card'; // adjust path if needed
-import './Card.css'; // contains all styles
+import React from 'react'
+import './Card.css'
 
-// Sample image imports or URLs
-const carLogos = [
-  '/logos/bmw.png',
-  '/logos/toyota.png',
-  '/logos/honda.png',
-  '/logos/nissan.png',
-  '/logos/mazda.png',
-  '/logos/mercedes.png'
-];
-
-export default function LogoGallery() {
+export default function Card({img}) {
   return (
-    <div className="card-wrapper">
-      <div className="card">
-        {carLogos.map((img, index) => (
-          <Card key={index} img={img} />
-        ))}
+    <div>
+      <div className="pixel-card">
+        <img className='Logo' src={img} alt="" />
       </div>
     </div>
-  );
+  )
 }
