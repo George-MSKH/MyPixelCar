@@ -6,6 +6,7 @@ import Cars from './Pages/Cars';
 import About from './Pages/About';
 import Contact from './Pages/Contact';
 import { useRef, useState, useEffect } from 'react';
+import CarPageRouter from './CarPages/CarPageRouter';
 
 function App() {
 
