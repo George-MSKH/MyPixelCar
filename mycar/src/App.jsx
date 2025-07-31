@@ -5,8 +5,11 @@ import Home from './Pages/Home';
 import Cars from './Pages/Cars';
 import About from './Pages/About';
 import Contact from './Pages/Contact';
+import { useRef, useState, useEffect } from 'react';
+import CarPageRouter from './CarPages/CarPageRouter';
 
 function App() {
+
   return (
     <>
       <Router>
@@ -16,6 +19,7 @@ function App() {
           <Route path='/cars' element={<Cars />} />
           <Route path='/about' element={<About />} />
           <Route path='/contact' element={<Contact />} />
+          <Route path='/cars/:brand' element={<CarPageRouter />} />
         </Routes>
       </Router>
     </>
