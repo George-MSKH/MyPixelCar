@@ -13,7 +13,7 @@ export default function Cars() {
         <Card img="./image/toyota.png" />
         <Card img="./image/nissan.png" />
         <Card img="./image/infinity.png" />
-        <Card img="./image/bmw.png" />
+        <Card img="./image/lexus.png" />
         <Card img="./image/bmw.png" />
         <Card img="./image/bmw.png" />
         <Card img="./image/bmw.png" />
