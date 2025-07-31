@@ -15,37 +15,12 @@
   font-family: 'Jersey 20', sans-serif;
 }
 
-/* ========== MUTE BUTTON ========== */
-.mute-button {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  padding: 10px 16px;
-  background-color: #111827;
-  color: white;
-  border: none;
-  border-radius: 10px;
-  font-size: 16px;
-  cursor: pointer;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
-  transition: background-color 0.2s ease, transform 0.2s ease;
-  z-index: 999;
-}
-
-.mute-button:hover {
-  background-color: #1f2937;
-  transform: scale(1.05);
-}
-
 /* ========== FLOAT ANIMATION ========== */
 @keyframes float {
   0%, 100% { transform: translateY(0); }
   50% { transform: translateY(-6px); }
 }
 
-/* Apply float animation only if needed: 
-   Currently animating all direct children of .land — 
-   if not all children should float, target specific elements instead */
 .land > * {
   animation: float 4s ease-in-out infinite;
 }
@@ -56,12 +31,5 @@
     justify-content: center;
     padding-left: 0;
     text-align: center;
-  }
-
-  .mute-button {
-    bottom: 15px;
-    right: 15px;
-    font-size: 14px;
-    padding: 8px 12px;
   }
 }
