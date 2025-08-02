@@ -8,7 +8,7 @@ export default function Bmw() {
       name: 'BMW',
       model: 'E46',
       category: 'Coupe',
-      year: '1998-2006',
+      year: '1997-2006',
       rarity: 'legendary',
       images: [
         '/image/Cars/e46/e46-front.png',
@@ -20,7 +20,7 @@ export default function Bmw() {
       name: 'BMW',
       model: 'E36',
       category: 'Sedan',
-      year: '2000-2007',
+      year: '1990-2000',
       rarity: 'epic',
       images: [
         '/image/Cars/e36/e36-front.png',
