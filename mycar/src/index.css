@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  user-select: none;
 }
 
 html, body{
@@ -10,10 +11,7 @@ html, body{
 
 body {
   width: 100%;
-  /* base gradient (angled) */
   background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
-
-  /* overlay a vertical dark gradient on top */
   position: relative;
 }
 
