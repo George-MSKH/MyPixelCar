@@ -26,14 +26,10 @@
 .pixel-card {
   width: 130px;
   height: 130px;
-  background-color: rgba(26, 10, 30, 0.9); /* deep violet background */
+  background-color: #171717; /* deep violet background */
   color: #fff;
-  border: 3px solid #ff66cc; /* match header border */
+  border: 4px solid #ff66cc; /* match header border */
   padding: 16px;
-  box-shadow:
-    0 0 0 2px #ff66cc,
-    4px 4px 0 #cc3399,
-    8px 8px 0 #660066; /* magenta to purple shadow stack */
   font-family: 'Press Start 2P', monospace;
   text-align: center;
   image-rendering: pixelated;
@@ -48,10 +44,7 @@
 
 .pixel-card:hover {
   transform: scale(1.05);
-  box-shadow:
-    0 0 10px #ff99cc,
-    6px 6px 0 #cc3399,
-    10px 10px 0 #990099;
+  
 }
 
 /* === LOGO IMAGE === */
